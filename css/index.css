@@ -1,0 +1,232 @@
+.bg-darker{
+    background-color: #232429 !important;
+}
+
+.text-lighter{
+    color: #fff !important;
+}
+
+.top-section{
+    background-color: #2896F6;
+}
+ /* New Added Css */
+ .text-align-left {
+    text-align: left;
+  }
+  h2.hero-area-subheading {
+    font-size: 18px;
+    background: #2280d1;
+    text-align: center;
+    padding: 7px 21px;
+    display: inline-block;
+    border-radius: 37px;
+  }
+  h1.hero-area-heading {
+    font-size: 65px;
+    font-weight: 600;
+  }
+  h2.blue-text-subheading {
+    font-size: 16px;
+    color: #2896F6;
+    font-weight: 600;
+  }
+  h1.heading {
+    color: #232429;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .card .card-body .card-title {
+    font-size: 22px;
+    color: #232429;
+    font-weight: 600;
+  }
+  .how-it-works-card .card-body > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .how-it-works-card .card {
+    max-width: 271px;
+    min-height: 309px;
+  }
+  .how-it-works-card {
+    display: flex;
+  }
+  .how-it-works-card .card-body{
+    padding: 35px 40px 30px 40px;
+  }
+  .how-it-works-card {
+    display: flex;
+    padding: 15px 10px;
+    position: relative;
+    z-index: 1;
+}
+.how-it-works-card a.btn.btn-primary {
+  position: absolute;
+  bottom: 39px;
+}
+.how-it-works-card .card-body > p {
+  font-size: 18px;
+}
+section.our-mission-section .left-content p {
+  font-size: 18px;
+  color: rgba(35, 36, 41, 0.75);
+}
+section.our-mission-section .left-content {
+  max-width: 588px;
+  width: 100%;
+}
+section.our-mission-section h1.heading {
+  font-size: 50px;
+}
+section.our-mission-section {
+  position: relative;
+  padding: 100px 0;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.cpa-section .left-content {
+  max-width: 432px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cpa-section .left-content h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.cpa-section .left-content p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+}
+.cpa-section .right-content {
+    max-width: 513px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-need-help-content p, .footer-quicklinks-menu p a.text-reset, .footer-quicklinks-menu p,.footer-legal-menu p, .footer-legal-menu p a,
+.footer-logo p{
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: rgba(35, 36, 41, 0.90) !important;
+}
+.footer-need-help-content p a.blue-text-link {
+  color: #2896F6 !important;
+}
+.footer-need-help-content p:nth-child(4) {
+  margin-top: 30px;
+}
+.footer-need-help-content h6, .footer-quicklinks-menu h6, .footer-legal-menu h6{
+  font-size: 22px;
+}
+.cta-footer-content {
+  max-width: 631px;
+  width: 100%;
+}
+footer.text-center.text-lg-start.bg-white.text-muted {
+  background: #E4F2FF !important;
+  padding-top: 225px;
+}
+.copyright {
+  border-top: 2px solid rgba(0, 0, 0, 0.10);
+  padding: 15px 0;
+}
+.testimonialContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.testimonial-card {
+  background: #FFF;
+  padding: 31px 28px;
+  max-width: 320.36px;
+  width: 100%;
+  margin: 0 14px;
+  text-align: center;
+  border-radius: 10px;
+  height: 407px;
+  position: relative;
+}
+.name-status h2 {
+  color: #232429;
+  font-size: 22px;
+}
+.name-status p {
+  color: #2896F6;
+  font-size: 18px;
+}
+.testimonialContent .slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.name-status {
+  position: absolute;
+  left: 25%;
+  bottom: 20px;
+  z-index: 1;
+}
+.nav-buttons {
+  height: 42px;
+  width: 42px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  filter: drop-shadow(0px 1px 20px rgba(0, 0, 0, 0.10));
+  cursor: pointer;
+}
+.nav-buttons.left-angle {
+  position: absolute;
+  left: 0;
+}
+.nav-buttons.right-angle {
+  position: absolute;
+  right: 0;
+}
+.slide.active {
+  scale: 1.1;
+  margin: 0 15px;
+}
+section#how-it-works {
+  position: relative;
+}
+section#how-it-works:before {
+  content: '';
+  border-radius: 748px;
+  border: 150px solid rgba(40, 150, 246, 0.08);
+  position: absolute;
+  width: 748px;
+  height: 748px;
+  bottom: 200px;
+  left: -250px;
+}
+section#how-it-works:after {
+  content: '';
+  width: 748px;
+  height: 748px;
+  border-radius: 748px;
+  border: 150px solid rgba(40, 150, 246, 0.08);
+  position: absolute;
+  top: -110px;
+  right: 237px;
+  z-index: 0;
+}
+section#about-us:after {
+  content: 'Lending';
+  color: rgba(230, 243, 254, 0.50);
+  text-align: center;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -7.5px;
+  bottom: 0;
+  right: 198px;
+  position: absolute;
+  z-index: 0;
+}

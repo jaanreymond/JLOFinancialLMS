@@ -1,0 +1,8 @@
+body {
+    background: url(../img/leftbg.svg) left top no-repeat, url(../img/rightbg.png) right top no-repeat;
+    background-size: auto, auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
